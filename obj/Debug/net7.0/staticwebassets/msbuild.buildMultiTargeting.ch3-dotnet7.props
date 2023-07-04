@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ch3-dotnet7.props" />
+</Project>

@@ -1,0 +1,36 @@
+@model ch3_dotnet7.Models.GuestResponse
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width">
+        <title>RSVP Form</title>
+    </header>
+    <body>
+        <form asp-for="RsvpForm" method="post">
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name">
+            </div>
+            <div>
+                <label asp-for="Email"></label>
+                <input asp-for="Email">
+            </div>
+                <label asp-for="Phone"></label>
+                <input asp-for="Phone">
+            </div>
+            <div>
+                <label asp-for="WillAttend">Will you attend?</label>
+                <select asp-for="WillAttend">
+                    <option value="">Will you attend?</option>
+                    <option value="true">Yes, I will attend</option>
+                    <option value="false">No, I won't attend</option>
+                </select>
+            </div>
+            <button type="submit">Submit RSVP</button>
+        </form>
+    </body>
+</html>

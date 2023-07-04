@@ -18660,6 +18660,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\Home\\RsvpForm.cshtml",
+      "TargetPath": "Views\\Home\\RsvpForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
