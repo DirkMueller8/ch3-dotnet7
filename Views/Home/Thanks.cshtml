@@ -1,0 +1,30 @@
+@model ch3_dotnet7.Models.GuestResponse
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width">
+        <title>List of attendees</title>
+    </header>
+    <body>
+        <div>
+            <h1>Thank you, @Model?.Name!</h1>
+        </div>
+        <div>
+            @if (Model?.WillAttend == true)
+            {
+                @:Great that you are coming!
+            }
+            else
+            {
+                @:Sorry to hear you cannot make it!
+            }
+        </div>
+        <div>
+            Click <a asp-action="ListResponses">here</a> to see who is coming.
+        </div>
+    </body>
+</html>

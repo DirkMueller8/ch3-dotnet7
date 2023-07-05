@@ -1,0 +1,33 @@
+@model IEnumerable<ch3_dotnet7.Models.GuestResponse>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta name="viewport" content="width=device-width">
+        <title>List of attendees</title>
+    </header>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ch3_dotnet7.Models.GuestResponse r in Model!)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.Phone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+</html>

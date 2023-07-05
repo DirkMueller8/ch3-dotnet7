@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\Home\\ListResponses.cshtml",
+      "TargetPath": "Views\\Home\\ListResponses.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18662,6 +18667,11 @@
     {
       "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\Home\\RsvpForm.cshtml",
       "TargetPath": "Views\\Home\\RsvpForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dirkm\\repo\\ch3-dotnet7\\Views\\Home\\Thanks.cshtml",
+      "TargetPath": "Views\\Home\\Thanks.cshtml",
       "FileKind": "mvc"
     },
     {
